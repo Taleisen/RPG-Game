@@ -1,0 +1,35 @@
+{
+	"version": 1,
+	"changelists": [
+		{
+			"guid": "00000000000000000000000000000000",
+			"description": "Default Uncontrolled Changelist",
+			"files": [
+				"F:/Games/Unreal Tutorial/Tutorial/RPG_Tutorial/Content/StarterContent/Architecture/Floor_400x400.uasset",
+				"F:/Games/Unreal Tutorial/Tutorial/RPG_Tutorial/Content/Characters/RPG_Character/Animations/Locomotion/Idle_Break.uasset",
+				"F:/Games/Unreal Tutorial/Tutorial/RPG_Tutorial/Content/Characters/RPG_Character/Animations/Locomotion/Walk_Stop.uasset",
+				"F:/Games/Unreal Tutorial/Tutorial/RPG_Tutorial/Content/Characters/RPG_Character/Animations/Crouched/Crouch_Idle.uasset",
+				"F:/Games/Unreal Tutorial/Tutorial/RPG_Tutorial/Content/Characters/RPG_Character/Animations/Locomotion/LocomotionBlendSpace1D.uasset",
+				"F:/Games/Unreal Tutorial/Tutorial/RPG_Tutorial/Content/Characters/RPG_Character/Animations/ABP_RPGCharacter.uasset",
+				"F:/Games/Unreal Tutorial/Tutorial/RPG_Tutorial/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset",
+				"F:/Games/Unreal Tutorial/Tutorial/RPG_Tutorial/Content/Characters/RPG_Character/Animations/Crouched/CrouchedBlendSpace1D.uasset",
+				"F:/Games/Unreal Tutorial/Tutorial/RPG_Tutorial/Content/Characters/RPG_Character/Animations/Crouched/Crouch_Walk.uasset",
+				"F:/Games/Unreal Tutorial/Tutorial/RPG_Tutorial/Content/ThirdPerson/Input/IMC_Default.uasset",
+				"F:/Games/Unreal Tutorial/Tutorial/RPG_Tutorial/Content/ThirdPerson/Input/Actions/IA_Crouch.uasset",
+				"F:/Games/Unreal Tutorial/Tutorial/RPG_Tutorial/Content/Characters/RPG_Character/Animations/Leaning/Lean_Left.uasset",
+				"F:/Games/Unreal Tutorial/Tutorial/RPG_Tutorial/Content/Characters/RPG_Character/Animations/Leaning/Lean_Right.uasset",
+				"F:/Games/Unreal Tutorial/Tutorial/RPG_Tutorial/Content/Characters/RPG_Character/Animations/Leaning/LeanBlendSpace1D.uasset",
+				"F:/Games/Unreal Tutorial/Tutorial/RPG_Tutorial/Content/Characters/Mannequins/Materials/Instances/Quinn/Quinn_Purple_1.uasset",
+				"F:/Games/Unreal Tutorial/Tutorial/RPG_Tutorial/Content/Characters/Mannequins/Materials/Instances/Quinn/Quinn_Purple_2.uasset",
+				"F:/Games/Unreal Tutorial/Tutorial/RPG_Tutorial/Content/Characters/RPG_Character/Animations/Vaulting/VaultOver.uasset",
+				"F:/Games/Unreal Tutorial/Tutorial/RPG_Tutorial/Content/Characters/RPG_Character/Animations/Vaulting/VaultOver_Montage.uasset",
+				"F:/Games/Unreal Tutorial/Tutorial/RPG_Tutorial/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/8/KZ/SW82DY9NC5XZD1KYNOZI80.uasset",
+				"F:/Games/Unreal Tutorial/Tutorial/RPG_Tutorial/Content/Characters/RPG_Character/Animations/Idle_Break.uasset",
+				"F:/Games/Unreal Tutorial/Tutorial/RPG_Tutorial/Content/Characters/RPG_Character/Animations/Walk_Stop.uasset",
+				"F:/Games/Unreal Tutorial/Tutorial/RPG_Tutorial/Content/Characters/RPG_Character/Animations/Crouch_Idle.uasset",
+				"F:/Games/Unreal Tutorial/Tutorial/RPG_Tutorial/Content/Characters/RPG_Character/Animations/Crouh_Walk.uasset",
+				"F:/Games/Unreal Tutorial/Tutorial/RPG_Tutorial/Content/Characters/RPG_Character/Animations/Crouched/Crouh_Walk.uasset"
+			]
+		}
+	]
+}
