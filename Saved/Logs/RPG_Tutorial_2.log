@@ -4405,3 +4405,1031 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2024.12.04-08.41.58:206][994]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
 [2024.12.04-08.41.58:206][994]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 81572.953125, Update Interval: 339.782715
 [2024.12.04-08.42.15:735][ 19]LogUObjectHash: Compacting FUObjectHashTables data took   1.65ms
+[2024.12.04-08.45.28:840][870]LogUObjectHash: Compacting FUObjectHashTables data took   3.08ms
+[2024.12.04-08.45.28:846][870]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.12.04-08.45.28:898][870]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/ThirdPerson/Blueprints/BPC_PlayerStats] ([2] browsable assets)...
+[2024.12.04-08.45.28:898][870]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPerson/Blueprints/BPC_PlayerStats]
+[2024.12.04-08.45.28:968][870]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/BPC_PlayerStats
+[2024.12.04-08.45.28:968][870]LogSavePackage: Moving '../../../../../../Games/Unreal Tutorial/Tutorial/RPG_Tutorial/Saved/BPC_PlayerStats7D3998F149DE915D449D76AB902D843F.tmp' to '../../../../../../Games/Unreal Tutorial/Tutorial/RPG_Tutorial/Content/ThirdPerson/Blueprints/BPC_PlayerStats.uasset'
+[2024.12.04-08.45.28:989][870]LogFileHelpers: InternalPromptForCheckoutAndSave took 142.233 ms (total: 5.43 sec)
+[2024.12.04-08.45.29:033][870]LogContentValidation: Display: Starting to validate 1 assets
+[2024.12.04-08.45.29:033][870]LogContentValidation: Enabled validators:
+[2024.12.04-08.45.29:033][870]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2024.12.04-08.45.29:033][870]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2024.12.04-08.45.29:033][870]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2024.12.04-08.45.29:033][870]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2024.12.04-08.45.29:033][870]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2024.12.04-08.45.29:033][870]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2024.12.04-08.45.29:034][870]AssetCheck: /Game/ThirdPerson/Blueprints/BPC_PlayerStats Validating asset
+[2024.12.04-08.45.33:192][936]LogUObjectHash: Compacting FUObjectHashTables data took   1.70ms
+[2024.12.04-08.45.37:428][996]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.12.04-08.45.37:472][996]LogContentBundle: [ThirdPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.12.04-08.45.37:473][996]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' started...
+[2024.12.04-08.45.37:518][996]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' took 44.375 ms (total: 202.594 ms)
+[2024.12.04-08.45.37:543][996]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.12.04-08.45.37:635][996]LogPlayLevel: Display: Creating online subsystem for client :Context_34
+[2024.12.04-08.45.37:712][996]LogOnline: OSS: Created online subsystem instance for: :Context_34
+[2024.12.04-08.45.37:901][997]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2024.12.04-08.45.38:291][997]LogPlayLevel: PIE: StaticDuplicateObject took: (0.385985s)
+[2024.12.04-08.45.38:293][997]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.392275s)
+[2024.12.04-08.45.38:355][997]LogUObjectHash: Compacting FUObjectHashTables data took   3.52ms
+[2024.12.04-08.45.38:402][997]LogChaosDD: Creating Chaos Debug Draw Scene for world ThirdPersonMap
+[2024.12.04-08.45.38:868][997]LogRenderer: SceneCulling instance hierarchy is disabled as UseNanite(PCD3D_SM5) returned false, for scene: 'World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap'.
+[2024.12.04-08.45.39:082][997]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.12.04-08.45.39:082][997]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.12.04-08.45.39:086][997]LogWorldPartition: UWorldPartition::Initialize : World = /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.12.04-08.45.39:088][997]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.12.04-08.45.39:147][997]LogWorldPartition: Display: WorldPartition initialize took 64.988 ms (total: 150.562 ms)
+[2024.12.04-08.45.39:173][997]LogPlayLevel: PIE: World Init took: (0.779181s)
+[2024.12.04-08.45.39:192][997]LogAudio: Display: Creating Audio Device:                 Id: 9, Scope: Unique, Realtime: True
+[2024.12.04-08.45.39:505][997]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.12.04-08.45.39:505][997]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.12.04-08.45.39:505][997]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.12.04-08.45.39:505][997]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.12.04-08.45.39:505][997]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.12.04-08.45.39:505][997]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.12.04-08.45.39:505][997]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.12.04-08.45.39:594][997]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.12.04-08.45.40:383][997]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.12.04-08.45.40:383][997]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.12.04-08.45.40:383][997]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.12.04-08.45.40:646][997]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.12.04-08.45.44:063][997]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2024.12.04-08.45.45:318][997]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.12.04-08.45.45:318][997]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.12.04-08.45.45:688][997]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.12.04-08.45.47:948][997]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=9
+[2024.12.04-08.45.47:948][997]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=9
+[2024.12.04-08.45.47:951][997]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=9
+[2024.12.04-08.45.47:951][997]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=9
+[2024.12.04-08.45.47:972][997]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=9
+[2024.12.04-08.45.48:095][997]LogInit: FAudioDevice initialized with ID 9.
+[2024.12.04-08.45.48:096][997]LogAudio: Display: Audio Device (ID: 9) registered with world 'ThirdPersonMap'.
+[2024.12.04-08.45.48:464][997]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 9
+[2024.12.04-08.45.58:372][997]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.12.04-08.46.03:276][997]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 0) at 2024.12.04-03.46.03
+[2024.12.04-08.46.04:518][997]LogWorld: Bringing up level for play took: 5.048926
+[2024.12.04-08.46.12:802][997]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2024.12.04-08.46.12:802][997]LogScript: Warning: Script Msg called by: ABP_RPGCharacter_C /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap:PersistentLevel.BP_ThirdPersonCharacter_C_0.CharacterMesh0.ABP_RPGCharacter_C_0
+[2024.12.04-08.46.12:861][997]PIE: Server logged in
+[2024.12.04-08.46.12:862][997]PIE: Play in editor total start time 35.404 seconds.
+[2024.12.04-08.46.32:848][104]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.12.04-08.46.32:849][104]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2024.12.04-08.46.32:858][104]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2024.12.04-08.46.32:864][104]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.12.04-08.46.32:866][104]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap
+[2024.12.04-08.46.33:001][104]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.12.04-08.46.33:012][104]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.12.04-08.46.33:082][104]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.12.04-08.46.33:086][104]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 9
+[2024.12.04-08.46.33:088][104]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=9
+[2024.12.04-08.46.33:092][104]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=9
+[2024.12.04-08.46.33:101][104]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.12.04-08.46.33:120][104]LogUObjectHash: Compacting FUObjectHashTables data took   2.51ms
+[2024.12.04-08.46.33:184][105]LogPlayLevel: Display: Destroying online subsystem :Context_34
+[2024.12.04-08.46.56:250][ 28]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.12.04-08.46.56:256][ 28]LogContentBundle: [ThirdPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.12.04-08.46.56:256][ 28]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' started...
+[2024.12.04-08.46.56:258][ 28]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' took 2.038 ms (total: 204.633 ms)
+[2024.12.04-08.46.56:258][ 28]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.12.04-08.46.56:259][ 28]LogPlayLevel: Display: Creating online subsystem for client :Context_35
+[2024.12.04-08.46.56:265][ 28]LogOnline: OSS: Created online subsystem instance for: :Context_35
+[2024.12.04-08.46.56:444][ 29]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2024.12.04-08.46.56:449][ 29]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004370s)
+[2024.12.04-08.46.56:449][ 29]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.004463s)
+[2024.12.04-08.46.56:497][ 29]LogUObjectHash: Compacting FUObjectHashTables data took   2.22ms
+[2024.12.04-08.46.56:500][ 29]LogChaosDD: Creating Chaos Debug Draw Scene for world ThirdPersonMap
+[2024.12.04-08.46.56:504][ 29]LogRenderer: SceneCulling instance hierarchy is disabled as UseNanite(PCD3D_SM5) returned false, for scene: 'World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap'.
+[2024.12.04-08.46.56:505][ 29]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.12.04-08.46.56:505][ 29]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.12.04-08.46.56:505][ 29]LogWorldPartition: UWorldPartition::Initialize : World = /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.12.04-08.46.56:505][ 29]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.12.04-08.46.56:507][ 29]LogWorldPartition: Display: WorldPartition initialize took 2.101 ms (total: 152.664 ms)
+[2024.12.04-08.46.56:507][ 29]LogPlayLevel: PIE: World Init took: (0.007446s)
+[2024.12.04-08.46.56:508][ 29]LogAudio: Display: Creating Audio Device:                 Id: 10, Scope: Unique, Realtime: True
+[2024.12.04-08.46.56:509][ 29]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.12.04-08.46.56:509][ 29]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.12.04-08.46.56:509][ 29]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.12.04-08.46.56:509][ 29]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.12.04-08.46.56:509][ 29]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.12.04-08.46.56:509][ 29]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.12.04-08.46.56:509][ 29]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.12.04-08.46.56:509][ 29]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.12.04-08.46.56:509][ 29]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.12.04-08.46.56:509][ 29]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.12.04-08.46.56:509][ 29]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.12.04-08.46.56:512][ 29]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.12.04-08.46.56:538][ 29]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2024.12.04-08.46.56:539][ 29]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.12.04-08.46.56:539][ 29]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.12.04-08.46.56:539][ 29]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.12.04-08.46.56:540][ 29]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=10
+[2024.12.04-08.46.56:540][ 29]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=10
+[2024.12.04-08.46.56:544][ 29]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=10
+[2024.12.04-08.46.56:544][ 29]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=10
+[2024.12.04-08.46.56:545][ 29]LogInit: FAudioDevice initialized with ID 10.
+[2024.12.04-08.46.56:545][ 29]LogAudio: Display: Audio Device (ID: 10) registered with world 'ThirdPersonMap'.
+[2024.12.04-08.46.56:545][ 29]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 10
+[2024.12.04-08.46.56:644][ 29]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.12.04-08.46.56:647][ 29]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 0) at 2024.12.04-03.46.56
+[2024.12.04-08.46.56:647][ 29]LogWorld: Bringing up level for play took: 0.002550
+[2024.12.04-08.46.56:650][ 29]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2024.12.04-08.46.56:650][ 29]LogScript: Warning: Script Msg called by: ABP_RPGCharacter_C /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap:PersistentLevel.BP_ThirdPersonCharacter_C_0.CharacterMesh0.ABP_RPGCharacter_C_0
+[2024.12.04-08.46.56:660][ 29]PIE: Server logged in
+[2024.12.04-08.46.56:661][ 29]PIE: Play in editor total start time 0.405 seconds.
+[2024.12.04-08.47.04:952][ 74]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.12.04-08.47.04:952][ 74]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2024.12.04-08.47.04:952][ 74]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2024.12.04-08.47.04:953][ 74]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.12.04-08.47.04:953][ 74]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap
+[2024.12.04-08.47.05:117][ 74]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.12.04-08.47.05:126][ 74]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.12.04-08.47.05:163][ 74]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.12.04-08.47.05:163][ 74]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 10
+[2024.12.04-08.47.05:163][ 74]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10
+[2024.12.04-08.47.05:166][ 74]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10
+[2024.12.04-08.47.05:182][ 74]LogUObjectHash: Compacting FUObjectHashTables data took   1.86ms
+[2024.12.04-08.47.05:214][ 75]LogPlayLevel: Display: Destroying online subsystem :Context_35
+[2024.12.04-08.48.18:653][198]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 81945.054688
+[2024.12.04-08.48.18:737][203]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2024.12.04-08.48.18:737][203]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 81945.117188, Update Interval: 304.830475
+[2024.12.04-08.49.38:553][774]LogUObjectHash: Compacting FUObjectHashTables data took   2.08ms
+[2024.12.04-08.49.38:556][774]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/ThirdPerson/Maps/ThirdPersonMap' took 0.037
+[2024.12.04-08.49.38:557][774]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter] ([2] browsable assets)...
+[2024.12.04-08.49.38:600][774]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter]
+[2024.12.04-08.49.38:600][774]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter]
+[2024.12.04-08.49.38:670][774]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter_Auto2
+[2024.12.04-08.49.38:672][774]LogSavePackage: Moving '../../../../../../Games/Unreal Tutorial/Tutorial/RPG_Tutorial/Saved/BP_ThirdPersonCharacter_Auto2AEE54ECC4C6EF3B8BB0AE181C37A0706.tmp' to '../../../../../../Games/Unreal Tutorial/Tutorial/RPG_Tutorial/Saved/Autosaves/Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter_Auto2.uasset'
+[2024.12.04-08.49.38:674][774]LogFileHelpers: Auto-saving content packages took 0.117
+[2024.12.04-08.53.12:204][813]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2024.12.04-08.53.12:205][813]LogScript: Warning: Script Msg called by: ABP_RPGCharacter_C /Engine/Transient.World_15:PersistentLevel.BP_ThirdPersonCharacter_C_10.CharacterMesh0.ABP_RPGCharacter_C_0
+[2024.12.04-08.53.12:211][813]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2024.12.04-08.53.12:211][813]LogScript: Warning: Script Msg called by: ABP_RPGCharacter_C /Engine/Transient.World_17:PersistentLevel.BP_ThirdPersonCharacter_C_0.CharacterMesh0.ABP_RPGCharacter_C_1
+[2024.12.04-08.53.12:218][813]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2024.12.04-08.53.12:218][813]LogScript: Warning: Script Msg called by: ABP_RPGCharacter_C /Engine/Transient.World_28:PersistentLevel.BP_ThirdPersonCharacter_C_0.CharacterMesh0.ABP_RPGCharacter_C_1
+[2024.12.04-08.54.22:950][404]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 82297.648438
+[2024.12.04-08.54.23:034][409]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2024.12.04-08.54.23:034][409]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 82297.710938, Update Interval: 340.491333
+[2024.12.04-08.54.47:189][850]LogDerivedDataCache: C:/Users/curti/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.002 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2024.12.04-09.00.49:286][243]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 82664.804688
+[2024.12.04-09.00.49:352][247]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2024.12.04-09.00.49:353][248]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 82664.851562, Update Interval: 335.098724
+[2024.12.04-09.01.08:893][416]LogUObjectHash: Compacting FUObjectHashTables data took   2.40ms
+[2024.12.04-09.01.08:900][416]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.12.04-09.01.08:955][416]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter] ([2] browsable assets)...
+[2024.12.04-09.01.08:986][416]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter]
+[2024.12.04-09.01.08:986][416]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter]
+[2024.12.04-09.01.09:029][416]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter
+[2024.12.04-09.01.09:029][416]LogSavePackage: Moving '../../../../../../Games/Unreal Tutorial/Tutorial/RPG_Tutorial/Saved/BP_ThirdPersonCharacter2DAF8090417AD15E9DB60C984CD71238.tmp' to '../../../../../../Games/Unreal Tutorial/Tutorial/RPG_Tutorial/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset'
+[2024.12.04-09.01.09:045][416]LogFileHelpers: InternalPromptForCheckoutAndSave took 145.023 ms (total: 5.57 sec)
+[2024.12.04-09.01.09:119][416]LogContentValidation: Display: Starting to validate 1 assets
+[2024.12.04-09.01.09:119][416]LogContentValidation: Enabled validators:
+[2024.12.04-09.01.09:119][416]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2024.12.04-09.01.09:119][416]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2024.12.04-09.01.09:119][416]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2024.12.04-09.01.09:119][416]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2024.12.04-09.01.09:119][416]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2024.12.04-09.01.09:119][416]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2024.12.04-09.01.09:119][416]AssetCheck: /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter Validating asset
+[2024.12.04-09.01.11:317][533]LogUObjectHash: Compacting FUObjectHashTables data took   2.03ms
+[2024.12.04-09.01.11:367][533]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2024.12.04-09.01.11:367][533]LogScript: Warning: Script Msg called by: ABP_RPGCharacter_C /Engine/Transient.World_15:PersistentLevel.BP_ThirdPersonCharacter_C_10.CharacterMesh0.ABP_RPGCharacter_C_1
+[2024.12.04-09.01.11:372][533]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2024.12.04-09.01.11:372][533]LogScript: Warning: Script Msg called by: ABP_RPGCharacter_C /Engine/Transient.World_17:PersistentLevel.BP_ThirdPersonCharacter_C_0.CharacterMesh0.ABP_RPGCharacter_C_1
+[2024.12.04-09.01.11:375][533]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2024.12.04-09.01.11:375][533]LogScript: Warning: Script Msg called by: ABP_RPGCharacter_C /Engine/Transient.World_28:PersistentLevel.BP_ThirdPersonCharacter_C_0.CharacterMesh0.ABP_RPGCharacter_C_1
+[2024.12.04-09.01.11:379][533]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2024.12.04-09.01.11:379][533]LogScript: Warning: Script Msg called by: ABP_RPGCharacter_C /Engine/Transient.World_15:PersistentLevel.BP_ThirdPersonCharacter_C_11.CharacterMesh0.ABP_RPGCharacter_C_0
+[2024.12.04-09.01.11:523][533]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2024.12.04-09.01.11:523][533]LogScript: Warning: Script Msg called by: ABP_RPGCharacter_C /Engine/Transient.World_17:PersistentLevel.BP_ThirdPersonCharacter_C_0.CharacterMesh0.ABP_RPGCharacter_C_1
+[2024.12.04-09.01.11:527][533]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2024.12.04-09.01.11:527][533]LogScript: Warning: Script Msg called by: ABP_RPGCharacter_C /Engine/Transient.World_28:PersistentLevel.BP_ThirdPersonCharacter_C_0.CharacterMesh0.ABP_RPGCharacter_C_1
+[2024.12.04-09.01.11:530][533]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2024.12.04-09.01.11:530][533]LogScript: Warning: Script Msg called by: ABP_RPGCharacter_C /Engine/Transient.World_15:PersistentLevel.BP_ThirdPersonCharacter_C_11.CharacterMesh0.ABP_RPGCharacter_C_0
+[2024.12.04-09.01.17:569][681]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.12.04-09.01.17:576][681]LogContentBundle: [ThirdPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.12.04-09.01.17:576][681]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' started...
+[2024.12.04-09.01.17:581][681]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' took 5.291 ms (total: 209.924 ms)
+[2024.12.04-09.01.17:582][681]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.12.04-09.01.17:582][681]LogPlayLevel: Display: Creating online subsystem for client :Context_36
+[2024.12.04-09.01.17:589][681]LogOnline: OSS: Created online subsystem instance for: :Context_36
+[2024.12.04-09.01.17:766][682]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2024.12.04-09.01.17:771][682]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004626s)
+[2024.12.04-09.01.17:771][682]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.004672s)
+[2024.12.04-09.01.17:965][682]LogUObjectHash: Compacting FUObjectHashTables data took   2.25ms
+[2024.12.04-09.01.17:968][682]LogChaosDD: Creating Chaos Debug Draw Scene for world ThirdPersonMap
+[2024.12.04-09.01.17:970][682]LogRenderer: SceneCulling instance hierarchy is disabled as UseNanite(PCD3D_SM5) returned false, for scene: 'World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap'.
+[2024.12.04-09.01.17:973][682]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.12.04-09.01.17:974][682]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.12.04-09.01.17:974][682]LogWorldPartition: UWorldPartition::Initialize : World = /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.12.04-09.01.17:974][682]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.12.04-09.01.17:975][682]LogWorldPartition: Display: WorldPartition initialize took 1.715 ms (total: 154.379 ms)
+[2024.12.04-09.01.17:975][682]LogPlayLevel: PIE: World Init took: (0.007079s)
+[2024.12.04-09.01.17:977][682]LogAudio: Display: Creating Audio Device:                 Id: 11, Scope: Unique, Realtime: True
+[2024.12.04-09.01.17:977][682]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.12.04-09.01.17:977][682]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.12.04-09.01.17:977][682]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.12.04-09.01.17:977][682]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.12.04-09.01.17:977][682]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.12.04-09.01.17:977][682]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.12.04-09.01.17:977][682]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.12.04-09.01.17:977][682]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.12.04-09.01.17:977][682]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.12.04-09.01.17:977][682]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.12.04-09.01.17:977][682]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.12.04-09.01.17:980][682]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.12.04-09.01.18:011][682]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2024.12.04-09.01.18:012][682]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.12.04-09.01.18:012][682]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.12.04-09.01.18:012][682]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.12.04-09.01.18:013][682]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=11
+[2024.12.04-09.01.18:013][682]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=11
+[2024.12.04-09.01.18:023][682]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=11
+[2024.12.04-09.01.18:023][682]LogInit: FAudioDevice initialized with ID 11.
+[2024.12.04-09.01.18:023][682]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=11
+[2024.12.04-09.01.18:023][682]LogAudio: Display: Audio Device (ID: 11) registered with world 'ThirdPersonMap'.
+[2024.12.04-09.01.18:023][682]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 11
+[2024.12.04-09.01.18:030][682]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.12.04-09.01.18:033][682]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 0) at 2024.12.04-04.01.18
+[2024.12.04-09.01.18:034][682]LogWorld: Bringing up level for play took: 0.003746
+[2024.12.04-09.01.18:036][682]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2024.12.04-09.01.18:036][682]LogScript: Warning: Script Msg called by: ABP_RPGCharacter_C /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap:PersistentLevel.BP_ThirdPersonCharacter_C_0.CharacterMesh0.ABP_RPGCharacter_C_0
+[2024.12.04-09.01.18:067][682]PIE: Server logged in
+[2024.12.04-09.01.18:068][682]PIE: Play in editor total start time 0.492 seconds.
+[2024.12.04-09.01.18:073][682]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2024.12.04-09.01.18:073][682]LogScript: Warning: Script Msg called by: BPC_PlayerStats_C /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap:PersistentLevel.BP_ThirdPersonCharacter_C_0.BPC_PlayerStats
+[2024.12.04-09.01.23:513][712]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.12.04-09.01.23:513][712]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2024.12.04-09.01.23:513][712]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2024.12.04-09.01.23:513][712]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.12.04-09.01.23:513][712]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap
+[2024.12.04-09.01.23:676][712]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.12.04-09.01.23:686][712]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.12.04-09.01.23:722][712]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.12.04-09.01.23:723][712]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 11
+[2024.12.04-09.01.23:723][712]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=11
+[2024.12.04-09.01.23:726][712]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=11
+[2024.12.04-09.01.23:736][712]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.12.04-09.01.23:740][712]LogUObjectHash: Compacting FUObjectHashTables data took   1.95ms
+[2024.12.04-09.01.23:774][713]LogPlayLevel: Display: Destroying online subsystem :Context_36
+[2024.12.04-09.01.56:186][466]LogUObjectHash: Compacting FUObjectHashTables data took   2.44ms
+[2024.12.04-09.01.56:192][466]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.12.04-09.01.56:235][466]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/ThirdPerson/Blueprints/BPC_PlayerStats] ([2] browsable assets)...
+[2024.12.04-09.01.56:235][466]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPerson/Blueprints/BPC_PlayerStats]
+[2024.12.04-09.01.56:284][466]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/BPC_PlayerStats
+[2024.12.04-09.01.56:284][466]LogSavePackage: Moving '../../../../../../Games/Unreal Tutorial/Tutorial/RPG_Tutorial/Saved/BPC_PlayerStatsE7687EBB441FADE37B9486AB43E22DDF.tmp' to '../../../../../../Games/Unreal Tutorial/Tutorial/RPG_Tutorial/Content/ThirdPerson/Blueprints/BPC_PlayerStats.uasset'
+[2024.12.04-09.01.56:300][466]LogFileHelpers: InternalPromptForCheckoutAndSave took 107.105 ms (total: 5.68 sec)
+[2024.12.04-09.01.56:334][466]LogContentValidation: Display: Starting to validate 1 assets
+[2024.12.04-09.01.56:334][466]LogContentValidation: Enabled validators:
+[2024.12.04-09.01.56:334][466]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2024.12.04-09.01.56:334][466]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2024.12.04-09.01.56:334][466]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2024.12.04-09.01.56:334][466]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2024.12.04-09.01.56:334][466]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2024.12.04-09.01.56:334][466]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2024.12.04-09.01.56:334][466]AssetCheck: /Game/ThirdPerson/Blueprints/BPC_PlayerStats Validating asset
+[2024.12.04-09.01.58:605][585]LogUObjectHash: Compacting FUObjectHashTables data took   2.01ms
+[2024.12.04-09.01.58:640][585]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2024.12.04-09.01.58:640][585]LogScript: Warning: Script Msg called by: ABP_RPGCharacter_C /Engine/Transient.World_15:PersistentLevel.BP_ThirdPersonCharacter_C_11.CharacterMesh0.ABP_RPGCharacter_C_0
+[2024.12.04-09.01.58:643][585]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2024.12.04-09.01.58:643][585]LogScript: Warning: Script Msg called by: ABP_RPGCharacter_C /Engine/Transient.World_17:PersistentLevel.BP_ThirdPersonCharacter_C_0.CharacterMesh0.ABP_RPGCharacter_C_1
+[2024.12.04-09.01.58:646][585]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2024.12.04-09.01.58:646][585]LogScript: Warning: Script Msg called by: ABP_RPGCharacter_C /Engine/Transient.World_28:PersistentLevel.BP_ThirdPersonCharacter_C_0.CharacterMesh0.ABP_RPGCharacter_C_1
+[2024.12.04-09.01.58:657][585]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2024.12.04-09.01.58:657][585]LogScript: Warning: Script Msg called by: ABP_RPGCharacter_C /Engine/Transient.World_15:PersistentLevel.BP_ThirdPersonCharacter_C_11.CharacterMesh0.ABP_RPGCharacter_C_0
+[2024.12.04-09.01.58:660][585]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2024.12.04-09.01.58:660][585]LogScript: Warning: Script Msg called by: ABP_RPGCharacter_C /Engine/Transient.World_17:PersistentLevel.BP_ThirdPersonCharacter_C_0.CharacterMesh0.ABP_RPGCharacter_C_1
+[2024.12.04-09.01.58:663][585]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2024.12.04-09.01.58:663][585]LogScript: Warning: Script Msg called by: ABP_RPGCharacter_C /Engine/Transient.World_28:PersistentLevel.BP_ThirdPersonCharacter_C_0.CharacterMesh0.ABP_RPGCharacter_C_1
+[2024.12.04-09.02.01:862][631]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.12.04-09.02.01:869][631]LogContentBundle: [ThirdPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.12.04-09.02.01:869][631]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' started...
+[2024.12.04-09.02.01:872][631]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' took 3.012 ms (total: 212.936 ms)
+[2024.12.04-09.02.01:873][631]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.12.04-09.02.01:873][631]LogPlayLevel: Display: Creating online subsystem for client :Context_37
+[2024.12.04-09.02.01:896][631]LogOnline: OSS: Created online subsystem instance for: :Context_37
+[2024.12.04-09.02.02:057][632]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2024.12.04-09.02.02:062][632]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004501s)
+[2024.12.04-09.02.02:062][632]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.004545s)
+[2024.12.04-09.02.02:257][632]LogUObjectHash: Compacting FUObjectHashTables data took   2.25ms
+[2024.12.04-09.02.02:261][632]LogChaosDD: Creating Chaos Debug Draw Scene for world ThirdPersonMap
+[2024.12.04-09.02.02:262][632]LogRenderer: SceneCulling instance hierarchy is disabled as UseNanite(PCD3D_SM5) returned false, for scene: 'World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap'.
+[2024.12.04-09.02.02:263][632]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.12.04-09.02.02:263][632]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.12.04-09.02.02:263][632]LogWorldPartition: UWorldPartition::Initialize : World = /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.12.04-09.02.02:263][632]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.12.04-09.02.02:267][632]LogWorldPartition: Display: WorldPartition initialize took 3.623 ms (total: 158.003 ms)
+[2024.12.04-09.02.02:267][632]LogPlayLevel: PIE: World Init took: (0.005809s)
+[2024.12.04-09.02.02:268][632]LogAudio: Display: Creating Audio Device:                 Id: 12, Scope: Unique, Realtime: True
+[2024.12.04-09.02.02:268][632]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.12.04-09.02.02:268][632]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.12.04-09.02.02:268][632]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.12.04-09.02.02:268][632]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.12.04-09.02.02:268][632]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.12.04-09.02.02:268][632]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.12.04-09.02.02:268][632]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.12.04-09.02.02:268][632]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.12.04-09.02.02:268][632]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.12.04-09.02.02:268][632]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.12.04-09.02.02:268][632]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.12.04-09.02.02:272][632]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.12.04-09.02.02:319][632]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2024.12.04-09.02.02:321][632]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.12.04-09.02.02:321][632]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.12.04-09.02.02:321][632]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.12.04-09.02.02:323][632]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=12
+[2024.12.04-09.02.02:323][632]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=12
+[2024.12.04-09.02.02:327][632]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=12
+[2024.12.04-09.02.02:327][632]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=12
+[2024.12.04-09.02.02:327][632]LogInit: FAudioDevice initialized with ID 12.
+[2024.12.04-09.02.02:327][632]LogAudio: Display: Audio Device (ID: 12) registered with world 'ThirdPersonMap'.
+[2024.12.04-09.02.02:327][632]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 12
+[2024.12.04-09.02.02:330][632]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.12.04-09.02.02:332][632]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 0) at 2024.12.04-04.02.02
+[2024.12.04-09.02.02:332][632]LogWorld: Bringing up level for play took: 0.002117
+[2024.12.04-09.02.02:334][632]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2024.12.04-09.02.02:335][632]LogScript: Warning: Script Msg called by: ABP_RPGCharacter_C /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap:PersistentLevel.BP_ThirdPersonCharacter_C_0.CharacterMesh0.ABP_RPGCharacter_C_0
+[2024.12.04-09.02.02:342][632]PIE: Server logged in
+[2024.12.04-09.02.02:343][632]PIE: Play in editor total start time 0.475 seconds.
+[2024.12.04-09.02.21:572][735]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.12.04-09.02.21:572][735]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2024.12.04-09.02.21:572][735]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2024.12.04-09.02.21:573][735]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.12.04-09.02.21:573][735]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap
+[2024.12.04-09.02.21:737][735]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.12.04-09.02.21:746][735]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.12.04-09.02.21:781][735]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.12.04-09.02.21:781][735]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 12
+[2024.12.04-09.02.21:781][735]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=12
+[2024.12.04-09.02.21:783][735]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=12
+[2024.12.04-09.02.21:790][735]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.12.04-09.02.21:799][735]LogUObjectHash: Compacting FUObjectHashTables data took   5.65ms
+[2024.12.04-09.02.22:163][736]LogPlayLevel: Display: Destroying online subsystem :Context_37
+[2024.12.04-09.02.34:354][802]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.12.04-09.02.34:360][802]LogContentBundle: [ThirdPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.12.04-09.02.34:360][802]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' started...
+[2024.12.04-09.02.34:365][802]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' took 5.043 ms (total: 217.980 ms)
+[2024.12.04-09.02.34:366][802]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.12.04-09.02.34:366][802]LogPlayLevel: Display: Creating online subsystem for client :Context_38
+[2024.12.04-09.02.34:372][802]LogOnline: OSS: Created online subsystem instance for: :Context_38
+[2024.12.04-09.02.34:545][803]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2024.12.04-09.02.34:549][803]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004363s)
+[2024.12.04-09.02.34:549][803]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.004414s)
+[2024.12.04-09.02.34:584][803]LogUObjectHash: Compacting FUObjectHashTables data took   2.05ms
+[2024.12.04-09.02.34:586][803]LogChaosDD: Creating Chaos Debug Draw Scene for world ThirdPersonMap
+[2024.12.04-09.02.34:588][803]LogRenderer: SceneCulling instance hierarchy is disabled as UseNanite(PCD3D_SM5) returned false, for scene: 'World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap'.
+[2024.12.04-09.02.34:589][803]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.12.04-09.02.34:589][803]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.12.04-09.02.34:589][803]LogWorldPartition: UWorldPartition::Initialize : World = /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.12.04-09.02.34:589][803]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.12.04-09.02.34:590][803]LogWorldPartition: Display: WorldPartition initialize took 1.601 ms (total: 159.605 ms)
+[2024.12.04-09.02.34:590][803]LogPlayLevel: PIE: World Init took: (0.003895s)
+[2024.12.04-09.02.34:591][803]LogAudio: Display: Creating Audio Device:                 Id: 13, Scope: Unique, Realtime: True
+[2024.12.04-09.02.34:591][803]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.12.04-09.02.34:591][803]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.12.04-09.02.34:591][803]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.12.04-09.02.34:591][803]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.12.04-09.02.34:591][803]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.12.04-09.02.34:591][803]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.12.04-09.02.34:591][803]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.12.04-09.02.34:591][803]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.12.04-09.02.34:591][803]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.12.04-09.02.34:591][803]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.12.04-09.02.34:591][803]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.12.04-09.02.34:594][803]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.12.04-09.02.34:625][803]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2024.12.04-09.02.34:625][803]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.12.04-09.02.34:625][803]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.12.04-09.02.34:625][803]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.12.04-09.02.34:626][803]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=13
+[2024.12.04-09.02.34:626][803]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=13
+[2024.12.04-09.02.34:631][803]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=13
+[2024.12.04-09.02.34:631][803]LogInit: FAudioDevice initialized with ID 13.
+[2024.12.04-09.02.34:631][803]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=13
+[2024.12.04-09.02.34:631][803]LogAudio: Display: Audio Device (ID: 13) registered with world 'ThirdPersonMap'.
+[2024.12.04-09.02.34:631][803]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 13
+[2024.12.04-09.02.34:743][803]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.12.04-09.02.34:745][803]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 0) at 2024.12.04-04.02.34
+[2024.12.04-09.02.34:745][803]LogWorld: Bringing up level for play took: 0.001923
+[2024.12.04-09.02.34:749][803]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2024.12.04-09.02.34:750][803]LogScript: Warning: Script Msg called by: ABP_RPGCharacter_C /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap:PersistentLevel.BP_ThirdPersonCharacter_C_0.CharacterMesh0.ABP_RPGCharacter_C_0
+[2024.12.04-09.02.34:759][803]PIE: Server logged in
+[2024.12.04-09.02.34:761][803]PIE: Play in editor total start time 0.401 seconds.
+[2024.12.04-09.02.36:842][815]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.12.04-09.02.36:843][815]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2024.12.04-09.02.36:843][815]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2024.12.04-09.02.36:843][815]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.12.04-09.02.36:843][815]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap
+[2024.12.04-09.02.37:008][815]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.12.04-09.02.37:015][815]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.12.04-09.02.37:041][815]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.12.04-09.02.37:041][815]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 13
+[2024.12.04-09.02.37:041][815]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=13
+[2024.12.04-09.02.37:044][815]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=13
+[2024.12.04-09.02.37:053][815]LogUObjectHash: Compacting FUObjectHashTables data took   1.63ms
+[2024.12.04-09.02.37:092][816]LogPlayLevel: Display: Destroying online subsystem :Context_38
+[2024.12.04-09.07.20:625][795]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 83038.812500
+[2024.12.04-09.07.21:624][798]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2024.12.04-09.07.21:624][798]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 83039.484375, Update Interval: 320.902130
+[2024.12.04-09.07.26:541][824]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.12.04-09.07.26:557][824]LogContentBundle: [ThirdPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.12.04-09.07.26:557][824]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' started...
+[2024.12.04-09.07.26:561][824]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' took 3.725 ms (total: 221.705 ms)
+[2024.12.04-09.07.26:561][824]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.12.04-09.07.26:562][824]LogPlayLevel: Display: Creating online subsystem for client :Context_39
+[2024.12.04-09.07.26:566][824]LogOnline: OSS: Created online subsystem instance for: :Context_39
+[2024.12.04-09.07.26:735][825]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2024.12.04-09.07.26:742][825]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007152s)
+[2024.12.04-09.07.26:742][825]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.007243s)
+[2024.12.04-09.07.26:783][825]LogUObjectHash: Compacting FUObjectHashTables data took   2.29ms
+[2024.12.04-09.07.26:785][825]LogChaosDD: Creating Chaos Debug Draw Scene for world ThirdPersonMap
+[2024.12.04-09.07.26:787][825]LogRenderer: SceneCulling instance hierarchy is disabled as UseNanite(PCD3D_SM5) returned false, for scene: 'World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap'.
+[2024.12.04-09.07.26:787][825]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.12.04-09.07.26:788][825]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.12.04-09.07.26:788][825]LogWorldPartition: UWorldPartition::Initialize : World = /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.12.04-09.07.26:788][825]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.12.04-09.07.26:789][825]LogWorldPartition: Display: WorldPartition initialize took 1.733 ms (total: 161.338 ms)
+[2024.12.04-09.07.26:789][825]LogPlayLevel: PIE: World Init took: (0.004174s)
+[2024.12.04-09.07.26:790][825]LogAudio: Display: Creating Audio Device:                 Id: 14, Scope: Unique, Realtime: True
+[2024.12.04-09.07.26:790][825]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.12.04-09.07.26:790][825]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.12.04-09.07.26:790][825]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.12.04-09.07.26:790][825]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.12.04-09.07.26:790][825]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.12.04-09.07.26:790][825]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.12.04-09.07.26:790][825]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.12.04-09.07.26:790][825]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.12.04-09.07.26:790][825]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.12.04-09.07.26:790][825]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.12.04-09.07.26:790][825]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.12.04-09.07.26:793][825]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.12.04-09.07.26:828][825]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2024.12.04-09.07.26:829][825]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.12.04-09.07.26:829][825]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.12.04-09.07.26:829][825]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.12.04-09.07.26:830][825]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=14
+[2024.12.04-09.07.26:830][825]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=14
+[2024.12.04-09.07.26:832][825]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=14
+[2024.12.04-09.07.26:832][825]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=14
+[2024.12.04-09.07.26:832][825]LogInit: FAudioDevice initialized with ID 14.
+[2024.12.04-09.07.26:832][825]LogAudio: Display: Audio Device (ID: 14) registered with world 'ThirdPersonMap'.
+[2024.12.04-09.07.26:833][825]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 14
+[2024.12.04-09.07.26:835][825]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.12.04-09.07.26:838][825]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 0) at 2024.12.04-04.07.26
+[2024.12.04-09.07.26:838][825]LogWorld: Bringing up level for play took: 0.002043
+[2024.12.04-09.07.26:839][825]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2024.12.04-09.07.26:839][825]LogScript: Warning: Script Msg called by: ABP_RPGCharacter_C /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap:PersistentLevel.BP_ThirdPersonCharacter_C_0.CharacterMesh0.ABP_RPGCharacter_C_0
+[2024.12.04-09.07.26:847][825]PIE: Server logged in
+[2024.12.04-09.07.26:848][825]PIE: Play in editor total start time 0.292 seconds.
+[2024.12.04-09.08.17:912][101]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.12.04-09.08.17:912][101]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2024.12.04-09.08.17:912][101]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2024.12.04-09.08.17:913][101]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.12.04-09.08.17:913][101]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap
+[2024.12.04-09.08.18:088][101]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.12.04-09.08.18:097][101]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.12.04-09.08.18:132][101]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.12.04-09.08.18:132][101]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 14
+[2024.12.04-09.08.18:132][101]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=14
+[2024.12.04-09.08.18:135][101]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=14
+[2024.12.04-09.08.18:175][101]LogUObjectHash: Compacting FUObjectHashTables data took   2.53ms
+[2024.12.04-09.08.18:434][102]LogPlayLevel: Display: Destroying online subsystem :Context_39
+[2024.12.04-09.08.52:163][756]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.12.04-09.08.52:169][756]LogContentBundle: [ThirdPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.12.04-09.08.52:169][756]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' started...
+[2024.12.04-09.08.52:194][756]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' took 25.556 ms (total: 247.261 ms)
+[2024.12.04-09.08.52:195][756]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.12.04-09.08.52:195][756]LogPlayLevel: Display: Creating online subsystem for client :Context_40
+[2024.12.04-09.08.52:201][756]LogOnline: OSS: Created online subsystem instance for: :Context_40
+[2024.12.04-09.08.52:342][757]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2024.12.04-09.08.52:346][757]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003934s)
+[2024.12.04-09.08.52:346][757]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.003978s)
+[2024.12.04-09.08.52:395][757]LogUObjectHash: Compacting FUObjectHashTables data took   5.13ms
+[2024.12.04-09.08.52:397][757]LogChaosDD: Creating Chaos Debug Draw Scene for world ThirdPersonMap
+[2024.12.04-09.08.52:399][757]LogRenderer: SceneCulling instance hierarchy is disabled as UseNanite(PCD3D_SM5) returned false, for scene: 'World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap'.
+[2024.12.04-09.08.52:399][757]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.12.04-09.08.52:399][757]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.12.04-09.08.52:399][757]LogWorldPartition: UWorldPartition::Initialize : World = /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.12.04-09.08.52:399][757]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.12.04-09.08.52:401][757]LogWorldPartition: Display: WorldPartition initialize took 1.419 ms (total: 162.757 ms)
+[2024.12.04-09.08.52:401][757]LogPlayLevel: PIE: World Init took: (0.003359s)
+[2024.12.04-09.08.52:402][757]LogAudio: Display: Creating Audio Device:                 Id: 15, Scope: Unique, Realtime: True
+[2024.12.04-09.08.52:402][757]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.12.04-09.08.52:402][757]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.12.04-09.08.52:402][757]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.12.04-09.08.52:402][757]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.12.04-09.08.52:402][757]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.12.04-09.08.52:402][757]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.12.04-09.08.52:402][757]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.12.04-09.08.52:402][757]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.12.04-09.08.52:402][757]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.12.04-09.08.52:402][757]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.12.04-09.08.52:402][757]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.12.04-09.08.52:404][757]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.12.04-09.08.52:431][757]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2024.12.04-09.08.52:431][757]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.12.04-09.08.52:431][757]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.12.04-09.08.52:431][757]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.12.04-09.08.52:432][757]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=15
+[2024.12.04-09.08.52:432][757]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=15
+[2024.12.04-09.08.52:436][757]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=15
+[2024.12.04-09.08.52:436][757]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=15
+[2024.12.04-09.08.52:436][757]LogInit: FAudioDevice initialized with ID 15.
+[2024.12.04-09.08.52:436][757]LogAudio: Display: Audio Device (ID: 15) registered with world 'ThirdPersonMap'.
+[2024.12.04-09.08.52:436][757]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 15
+[2024.12.04-09.08.52:530][757]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.12.04-09.08.52:534][757]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 0) at 2024.12.04-04.08.52
+[2024.12.04-09.08.52:534][757]LogWorld: Bringing up level for play took: 0.004295
+[2024.12.04-09.08.52:537][757]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2024.12.04-09.08.52:537][757]LogScript: Warning: Script Msg called by: ABP_RPGCharacter_C /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap:PersistentLevel.BP_ThirdPersonCharacter_C_0.CharacterMesh0.ABP_RPGCharacter_C_0
+[2024.12.04-09.08.52:548][757]PIE: Server logged in
+[2024.12.04-09.08.52:550][757]PIE: Play in editor total start time 0.381 seconds.
+[2024.12.04-09.09.33:952][979]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.12.04-09.09.33:952][979]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2024.12.04-09.09.33:953][979]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2024.12.04-09.09.33:953][979]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.12.04-09.09.33:953][979]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap
+[2024.12.04-09.09.34:130][979]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.12.04-09.09.34:139][979]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.12.04-09.09.34:174][979]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.12.04-09.09.34:174][979]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 15
+[2024.12.04-09.09.34:174][979]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=15
+[2024.12.04-09.09.34:177][979]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=15
+[2024.12.04-09.09.34:186][979]LogUObjectHash: Compacting FUObjectHashTables data took   1.88ms
+[2024.12.04-09.09.34:477][980]LogPlayLevel: Display: Destroying online subsystem :Context_40
+[2024.12.04-09.12.07:830][  5]LogUObjectHash: Compacting FUObjectHashTables data took   2.99ms
+[2024.12.04-09.12.07:836][  5]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.12.04-09.12.07:895][  5]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/ThirdPerson/Blueprints/BPC_PlayerStats] ([2] browsable assets)...
+[2024.12.04-09.12.07:895][  5]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPerson/Blueprints/BPC_PlayerStats]
+[2024.12.04-09.12.07:949][  5]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/BPC_PlayerStats
+[2024.12.04-09.12.07:949][  5]LogSavePackage: Moving '../../../../../../Games/Unreal Tutorial/Tutorial/RPG_Tutorial/Saved/BPC_PlayerStats6796B7ED42400F7216ECE5AFA0C9B4B9.tmp' to '../../../../../../Games/Unreal Tutorial/Tutorial/RPG_Tutorial/Content/ThirdPerson/Blueprints/BPC_PlayerStats.uasset'
+[2024.12.04-09.12.07:965][  5]LogFileHelpers: InternalPromptForCheckoutAndSave took 128.966 ms (total: 5.81 sec)
+[2024.12.04-09.12.08:028][  5]LogContentValidation: Display: Starting to validate 1 assets
+[2024.12.04-09.12.08:028][  5]LogContentValidation: Enabled validators:
+[2024.12.04-09.12.08:028][  5]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2024.12.04-09.12.08:028][  5]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2024.12.04-09.12.08:028][  5]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2024.12.04-09.12.08:028][  5]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2024.12.04-09.12.08:028][  5]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2024.12.04-09.12.08:028][  5]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2024.12.04-09.12.08:028][  5]AssetCheck: /Game/ThirdPerson/Blueprints/BPC_PlayerStats Validating asset
+[2024.12.04-09.13.26:419][403]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 83389.437500
+[2024.12.04-09.13.26:509][409]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2024.12.04-09.13.26:509][409]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 83389.515625, Update Interval: 326.472351
+[2024.12.04-09.13.38:470][121]LogUObjectHash: Compacting FUObjectHashTables data took   1.52ms
+[2024.12.04-09.13.38:475][121]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.12.04-09.13.38:520][121]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter] ([2] browsable assets)...
+[2024.12.04-09.13.38:551][121]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter]
+[2024.12.04-09.13.38:551][121]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter]
+[2024.12.04-09.13.38:595][121]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter
+[2024.12.04-09.13.38:595][121]LogSavePackage: Moving '../../../../../../Games/Unreal Tutorial/Tutorial/RPG_Tutorial/Saved/BP_ThirdPersonCharacter4232B5B3435F52DC13C3D8A426444274.tmp' to '../../../../../../Games/Unreal Tutorial/Tutorial/RPG_Tutorial/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset'
+[2024.12.04-09.13.38:610][121]LogFileHelpers: InternalPromptForCheckoutAndSave took 134.418 ms (total: 5.94 sec)
+[2024.12.04-09.13.38:653][121]LogContentValidation: Display: Starting to validate 1 assets
+[2024.12.04-09.13.38:653][121]LogContentValidation: Enabled validators:
+[2024.12.04-09.13.38:653][121]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2024.12.04-09.13.38:653][121]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2024.12.04-09.13.38:653][121]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2024.12.04-09.13.38:653][121]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2024.12.04-09.13.38:653][121]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2024.12.04-09.13.38:653][121]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2024.12.04-09.13.38:653][121]AssetCheck: /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter Validating asset
+[2024.12.04-09.13.41:165][259]LogUObjectHash: Compacting FUObjectHashTables data took   2.49ms
+[2024.12.04-09.13.41:261][259]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2024.12.04-09.13.41:261][259]LogScript: Warning: Script Msg called by: ABP_RPGCharacter_C /Engine/Transient.World_15:PersistentLevel.BP_ThirdPersonCharacter_C_11.CharacterMesh0.ABP_RPGCharacter_C_1
+[2024.12.04-09.13.41:265][259]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2024.12.04-09.13.41:266][259]LogScript: Warning: Script Msg called by: ABP_RPGCharacter_C /Engine/Transient.World_17:PersistentLevel.BP_ThirdPersonCharacter_C_0.CharacterMesh0.ABP_RPGCharacter_C_1
+[2024.12.04-09.13.41:269][259]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2024.12.04-09.13.41:269][259]LogScript: Warning: Script Msg called by: ABP_RPGCharacter_C /Engine/Transient.World_28:PersistentLevel.BP_ThirdPersonCharacter_C_0.CharacterMesh0.ABP_RPGCharacter_C_1
+[2024.12.04-09.13.41:272][259]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2024.12.04-09.13.41:272][259]LogScript: Warning: Script Msg called by: ABP_RPGCharacter_C /Engine/Transient.World_15:PersistentLevel.BP_ThirdPersonCharacter_C_12.CharacterMesh0.ABP_RPGCharacter_C_0
+[2024.12.04-09.13.41:426][259]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2024.12.04-09.13.41:426][259]LogScript: Warning: Script Msg called by: ABP_RPGCharacter_C /Engine/Transient.World_17:PersistentLevel.BP_ThirdPersonCharacter_C_0.CharacterMesh0.ABP_RPGCharacter_C_1
+[2024.12.04-09.13.41:429][259]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2024.12.04-09.13.41:429][259]LogScript: Warning: Script Msg called by: ABP_RPGCharacter_C /Engine/Transient.World_28:PersistentLevel.BP_ThirdPersonCharacter_C_0.CharacterMesh0.ABP_RPGCharacter_C_1
+[2024.12.04-09.13.41:453][259]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2024.12.04-09.13.41:453][259]LogScript: Warning: Script Msg called by: ABP_RPGCharacter_C /Engine/Transient.World_15:PersistentLevel.BP_ThirdPersonCharacter_C_12.CharacterMesh0.ABP_RPGCharacter_C_0
+[2024.12.04-09.13.46:044][333]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.12.04-09.13.46:049][333]LogContentBundle: [ThirdPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.12.04-09.13.46:050][333]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' started...
+[2024.12.04-09.13.46:052][333]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' took 2.435 ms (total: 249.697 ms)
+[2024.12.04-09.13.46:052][333]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.12.04-09.13.46:052][333]LogPlayLevel: Display: Creating online subsystem for client :Context_41
+[2024.12.04-09.13.46:058][333]LogOnline: OSS: Created online subsystem instance for: :Context_41
+[2024.12.04-09.13.46:462][334]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2024.12.04-09.13.46:465][334]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003803s)
+[2024.12.04-09.13.46:465][334]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.003854s)
+[2024.12.04-09.13.46:494][334]LogUObjectHash: Compacting FUObjectHashTables data took   2.62ms
+[2024.12.04-09.13.46:497][334]LogChaosDD: Creating Chaos Debug Draw Scene for world ThirdPersonMap
+[2024.12.04-09.13.46:498][334]LogRenderer: SceneCulling instance hierarchy is disabled as UseNanite(PCD3D_SM5) returned false, for scene: 'World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap'.
+[2024.12.04-09.13.46:499][334]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.12.04-09.13.46:499][334]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.12.04-09.13.46:499][334]LogWorldPartition: UWorldPartition::Initialize : World = /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.12.04-09.13.46:499][334]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.12.04-09.13.46:500][334]LogWorldPartition: Display: WorldPartition initialize took 1.370 ms (total: 164.128 ms)
+[2024.12.04-09.13.46:500][334]LogPlayLevel: PIE: World Init took: (0.003222s)
+[2024.12.04-09.13.46:501][334]LogAudio: Display: Creating Audio Device:                 Id: 16, Scope: Unique, Realtime: True
+[2024.12.04-09.13.46:501][334]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.12.04-09.13.46:501][334]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.12.04-09.13.46:501][334]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.12.04-09.13.46:501][334]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.12.04-09.13.46:501][334]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.12.04-09.13.46:501][334]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.12.04-09.13.46:501][334]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.12.04-09.13.46:501][334]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.12.04-09.13.46:501][334]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.12.04-09.13.46:501][334]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.12.04-09.13.46:501][334]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.12.04-09.13.46:503][334]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.12.04-09.13.46:529][334]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2024.12.04-09.13.46:529][334]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.12.04-09.13.46:529][334]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.12.04-09.13.46:529][334]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.12.04-09.13.46:530][334]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=16
+[2024.12.04-09.13.46:531][334]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=16
+[2024.12.04-09.13.46:533][334]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=16
+[2024.12.04-09.13.46:533][334]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=16
+[2024.12.04-09.13.46:533][334]LogInit: FAudioDevice initialized with ID 16.
+[2024.12.04-09.13.46:533][334]LogAudio: Display: Audio Device (ID: 16) registered with world 'ThirdPersonMap'.
+[2024.12.04-09.13.46:533][334]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 16
+[2024.12.04-09.13.46:536][334]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.12.04-09.13.46:537][334]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 0) at 2024.12.04-04.13.46
+[2024.12.04-09.13.46:538][334]LogWorld: Bringing up level for play took: 0.001845
+[2024.12.04-09.13.46:540][334]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2024.12.04-09.13.46:540][334]LogScript: Warning: Script Msg called by: ABP_RPGCharacter_C /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap:PersistentLevel.BP_ThirdPersonCharacter_C_0.CharacterMesh0.ABP_RPGCharacter_C_0
+[2024.12.04-09.13.46:547][334]PIE: Server logged in
+[2024.12.04-09.13.46:548][334]PIE: Play in editor total start time 0.499 seconds.
+[2024.12.04-09.14.31:782][577]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.12.04-09.14.31:782][577]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2024.12.04-09.14.31:782][577]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2024.12.04-09.14.31:782][577]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.12.04-09.14.31:782][577]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap
+[2024.12.04-09.14.31:964][577]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.12.04-09.14.31:973][577]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.12.04-09.14.32:011][577]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.12.04-09.14.32:012][577]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 16
+[2024.12.04-09.14.32:012][577]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=16
+[2024.12.04-09.14.32:014][577]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=16
+[2024.12.04-09.14.32:020][577]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.12.04-09.14.32:024][577]LogUObjectHash: Compacting FUObjectHashTables data took   1.85ms
+[2024.12.04-09.14.32:327][578]LogPlayLevel: Display: Destroying online subsystem :Context_41
+[2024.12.04-09.16.17:613][913]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2024.12.04-09.16.17:613][913]LogScript: Warning: Script Msg called by: ABP_RPGCharacter_C /Engine/Transient.World_15:PersistentLevel.BP_ThirdPersonCharacter_C_12.CharacterMesh0.ABP_RPGCharacter_C_0
+[2024.12.04-09.16.17:618][913]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2024.12.04-09.16.17:618][913]LogScript: Warning: Script Msg called by: ABP_RPGCharacter_C /Engine/Transient.World_17:PersistentLevel.BP_ThirdPersonCharacter_C_0.CharacterMesh0.ABP_RPGCharacter_C_1
+[2024.12.04-09.16.17:624][913]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2024.12.04-09.16.17:624][913]LogScript: Warning: Script Msg called by: ABP_RPGCharacter_C /Engine/Transient.World_28:PersistentLevel.BP_ThirdPersonCharacter_C_0.CharacterMesh0.ABP_RPGCharacter_C_1
+[2024.12.04-09.18.05:216][916]LogUObjectHash: Compacting FUObjectHashTables data took   2.05ms
+[2024.12.04-09.18.05:218][916]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/ThirdPerson/Maps/ThirdPersonMap' took 0.033
+[2024.12.04-09.18.05:219][916]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter] ([2] browsable assets)...
+[2024.12.04-09.18.05:268][916]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter]
+[2024.12.04-09.18.05:268][916]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter]
+[2024.12.04-09.18.05:311][916]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter_Auto3
+[2024.12.04-09.18.05:312][916]LogSavePackage: Moving '../../../../../../Games/Unreal Tutorial/Tutorial/RPG_Tutorial/Saved/BP_ThirdPersonCharacter_Auto319F725FF4298DA322E28D39CC7022233.tmp' to '../../../../../../Games/Unreal Tutorial/Tutorial/RPG_Tutorial/Saved/Autosaves/Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter_Auto3.uasset'
+[2024.12.04-09.18.05:314][916]LogFileHelpers: Auto-saving content packages took 0.096
+[2024.12.04-09.18.34:765][127]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2024.12.04-09.18.34:765][127]LogScript: Warning: Script Msg called by: ABP_RPGCharacter_C /Engine/Transient.World_15:PersistentLevel.BP_ThirdPersonCharacter_C_12.CharacterMesh0.ABP_RPGCharacter_C_0
+[2024.12.04-09.18.34:769][127]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2024.12.04-09.18.34:769][127]LogScript: Warning: Script Msg called by: ABP_RPGCharacter_C /Engine/Transient.World_17:PersistentLevel.BP_ThirdPersonCharacter_C_0.CharacterMesh0.ABP_RPGCharacter_C_1
+[2024.12.04-09.18.34:775][127]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2024.12.04-09.18.34:775][127]LogScript: Warning: Script Msg called by: ABP_RPGCharacter_C /Engine/Transient.World_28:PersistentLevel.BP_ThirdPersonCharacter_C_0.CharacterMesh0.ABP_RPGCharacter_C_1
+[2024.12.04-09.18.39:729][396]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2024.12.04-09.18.39:729][396]LogScript: Warning: Script Msg called by: ABP_RPGCharacter_C /Engine/Transient.World_15:PersistentLevel.BP_ThirdPersonCharacter_C_12.CharacterMesh0.ABP_RPGCharacter_C_0
+[2024.12.04-09.18.39:735][396]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2024.12.04-09.18.39:735][396]LogScript: Warning: Script Msg called by: ABP_RPGCharacter_C /Engine/Transient.World_17:PersistentLevel.BP_ThirdPersonCharacter_C_0.CharacterMesh0.ABP_RPGCharacter_C_1
+[2024.12.04-09.18.39:741][396]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2024.12.04-09.18.39:741][396]LogScript: Warning: Script Msg called by: ABP_RPGCharacter_C /Engine/Transient.World_28:PersistentLevel.BP_ThirdPersonCharacter_C_0.CharacterMesh0.ABP_RPGCharacter_C_1
+[2024.12.04-09.19.48:277][596]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 83761.203125
+[2024.12.04-09.19.49:318][599]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2024.12.04-09.19.49:318][599]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 83761.875000, Update Interval: 357.015289
+[2024.12.04-09.21.04:809][283]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2024.12.04-09.21.04:809][283]LogScript: Warning: Script Msg called by: ABP_RPGCharacter_C /Engine/Transient.World_15:PersistentLevel.BP_ThirdPersonCharacter_C_12.CharacterMesh0.ABP_RPGCharacter_C_0
+[2024.12.04-09.21.04:813][283]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2024.12.04-09.21.04:813][283]LogScript: Warning: Script Msg called by: ABP_RPGCharacter_C /Engine/Transient.World_28:PersistentLevel.BP_ThirdPersonCharacter_C_0.CharacterMesh0.ABP_RPGCharacter_C_1
+[2024.12.04-09.21.04:817][283]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2024.12.04-09.21.04:817][283]LogScript: Warning: Script Msg called by: ABP_RPGCharacter_C /Engine/Transient.World_17:PersistentLevel.BP_ThirdPersonCharacter_C_0.CharacterMesh0.ABP_RPGCharacter_C_1
+[2024.12.04-09.21.04:821][283]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2024.12.04-09.21.04:821][283]LogScript: Warning: Script Msg called by: ABP_RPGCharacter_C /Engine/Transient.World_15:PersistentLevel.BP_ThirdPersonCharacter_C_12.CharacterMesh0.ABP_RPGCharacter_C_0
+[2024.12.04-09.21.04:825][283]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2024.12.04-09.21.04:825][283]LogScript: Warning: Script Msg called by: ABP_RPGCharacter_C /Engine/Transient.World_17:PersistentLevel.BP_ThirdPersonCharacter_C_0.CharacterMesh0.ABP_RPGCharacter_C_1
+[2024.12.04-09.21.04:830][283]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2024.12.04-09.21.04:831][283]LogScript: Warning: Script Msg called by: ABP_RPGCharacter_C /Engine/Transient.World_28:PersistentLevel.BP_ThirdPersonCharacter_C_0.CharacterMesh0.ABP_RPGCharacter_C_1
+[2024.12.04-09.21.26:563][ 49]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2024.12.04-09.21.26:563][ 49]LogScript: Warning: Script Msg called by: ABP_RPGCharacter_C /Engine/Transient.World_15:PersistentLevel.BP_ThirdPersonCharacter_C_12.CharacterMesh0.ABP_RPGCharacter_C_0
+[2024.12.04-09.21.26:566][ 49]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2024.12.04-09.21.26:566][ 49]LogScript: Warning: Script Msg called by: ABP_RPGCharacter_C /Engine/Transient.World_28:PersistentLevel.BP_ThirdPersonCharacter_C_0.CharacterMesh0.ABP_RPGCharacter_C_1
+[2024.12.04-09.21.26:572][ 49]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2024.12.04-09.21.26:572][ 49]LogScript: Warning: Script Msg called by: ABP_RPGCharacter_C /Engine/Transient.World_17:PersistentLevel.BP_ThirdPersonCharacter_C_0.CharacterMesh0.ABP_RPGCharacter_C_1
+[2024.12.04-09.21.26:580][ 49]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2024.12.04-09.21.26:580][ 49]LogScript: Warning: Script Msg called by: ABP_RPGCharacter_C /Engine/Transient.World_15:PersistentLevel.BP_ThirdPersonCharacter_C_12.CharacterMesh0.ABP_RPGCharacter_C_0
+[2024.12.04-09.21.26:584][ 49]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2024.12.04-09.21.26:584][ 49]LogScript: Warning: Script Msg called by: ABP_RPGCharacter_C /Engine/Transient.World_17:PersistentLevel.BP_ThirdPersonCharacter_C_0.CharacterMesh0.ABP_RPGCharacter_C_1
+[2024.12.04-09.21.26:590][ 49]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2024.12.04-09.21.26:590][ 49]LogScript: Warning: Script Msg called by: ABP_RPGCharacter_C /Engine/Transient.World_28:PersistentLevel.BP_ThirdPersonCharacter_C_0.CharacterMesh0.ABP_RPGCharacter_C_1
+[2024.12.04-09.21.52:846][485]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2024.12.04-09.21.52:846][485]LogScript: Warning: Script Msg called by: ABP_RPGCharacter_C /Engine/Transient.World_15:PersistentLevel.BP_ThirdPersonCharacter_C_12.CharacterMesh0.ABP_RPGCharacter_C_0
+[2024.12.04-09.21.52:850][485]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2024.12.04-09.21.52:850][485]LogScript: Warning: Script Msg called by: ABP_RPGCharacter_C /Engine/Transient.World_17:PersistentLevel.BP_ThirdPersonCharacter_C_0.CharacterMesh0.ABP_RPGCharacter_C_1
+[2024.12.04-09.21.52:855][485]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2024.12.04-09.21.52:855][485]LogScript: Warning: Script Msg called by: ABP_RPGCharacter_C /Engine/Transient.World_28:PersistentLevel.BP_ThirdPersonCharacter_C_0.CharacterMesh0.ABP_RPGCharacter_C_1
+[2024.12.04-09.21.52:874][485]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2024.12.04-09.21.52:874][485]LogScript: Warning: Script Msg called by: ABP_RPGCharacter_C /Engine/Transient.World_15:PersistentLevel.BP_ThirdPersonCharacter_C_12.CharacterMesh0.ABP_RPGCharacter_C_0
+[2024.12.04-09.21.52:877][485]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2024.12.04-09.21.52:877][485]LogScript: Warning: Script Msg called by: ABP_RPGCharacter_C /Engine/Transient.World_17:PersistentLevel.BP_ThirdPersonCharacter_C_0.CharacterMesh0.ABP_RPGCharacter_C_1
+[2024.12.04-09.21.52:881][485]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2024.12.04-09.21.52:881][485]LogScript: Warning: Script Msg called by: ABP_RPGCharacter_C /Engine/Transient.World_28:PersistentLevel.BP_ThirdPersonCharacter_C_0.CharacterMesh0.ABP_RPGCharacter_C_1
+[2024.12.04-09.21.52:900][485]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2024.12.04-09.21.52:900][485]LogScript: Warning: Script Msg called by: ABP_RPGCharacter_C /Engine/Transient.World_15:PersistentLevel.BP_ThirdPersonCharacter_C_12.CharacterMesh0.ABP_RPGCharacter_C_0
+[2024.12.04-09.21.52:903][485]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2024.12.04-09.21.52:903][485]LogScript: Warning: Script Msg called by: ABP_RPGCharacter_C /Engine/Transient.World_17:PersistentLevel.BP_ThirdPersonCharacter_C_0.CharacterMesh0.ABP_RPGCharacter_C_1
+[2024.12.04-09.21.52:906][485]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2024.12.04-09.21.52:906][485]LogScript: Warning: Script Msg called by: ABP_RPGCharacter_C /Engine/Transient.World_28:PersistentLevel.BP_ThirdPersonCharacter_C_0.CharacterMesh0.ABP_RPGCharacter_C_1
+[2024.12.04-09.21.52:949][485]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2024.12.04-09.21.52:950][485]LogScript: Warning: Script Msg called by: ABP_RPGCharacter_C /Engine/Transient.World_15:PersistentLevel.BP_ThirdPersonCharacter_C_12.CharacterMesh0.ABP_RPGCharacter_C_0
+[2024.12.04-09.21.52:953][485]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2024.12.04-09.21.52:953][485]LogScript: Warning: Script Msg called by: ABP_RPGCharacter_C /Engine/Transient.World_17:PersistentLevel.BP_ThirdPersonCharacter_C_0.CharacterMesh0.ABP_RPGCharacter_C_1
+[2024.12.04-09.21.52:956][485]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2024.12.04-09.21.52:956][485]LogScript: Warning: Script Msg called by: ABP_RPGCharacter_C /Engine/Transient.World_28:PersistentLevel.BP_ThirdPersonCharacter_C_0.CharacterMesh0.ABP_RPGCharacter_C_1
+[2024.12.04-09.22.01:074][753]LogUObjectHash: Compacting FUObjectHashTables data took   1.75ms
+[2024.12.04-09.22.01:082][753]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.12.04-09.22.01:138][753]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter] ([2] browsable assets)...
+[2024.12.04-09.22.01:171][753]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter]
+[2024.12.04-09.22.01:171][753]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter]
+[2024.12.04-09.22.01:216][753]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter
+[2024.12.04-09.22.01:217][753]LogSavePackage: Moving '../../../../../../Games/Unreal Tutorial/Tutorial/RPG_Tutorial/Saved/BP_ThirdPersonCharacterC775CF2A48DFE6AB1952518AE768FA98.tmp' to '../../../../../../Games/Unreal Tutorial/Tutorial/RPG_Tutorial/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset'
+[2024.12.04-09.22.01:233][753]LogFileHelpers: InternalPromptForCheckoutAndSave took 151.185 ms (total: 6.09 sec)
+[2024.12.04-09.22.01:288][753]LogContentValidation: Display: Starting to validate 1 assets
+[2024.12.04-09.22.01:288][753]LogContentValidation: Enabled validators:
+[2024.12.04-09.22.01:288][753]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2024.12.04-09.22.01:288][753]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2024.12.04-09.22.01:288][753]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2024.12.04-09.22.01:288][753]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2024.12.04-09.22.01:288][753]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2024.12.04-09.22.01:288][753]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2024.12.04-09.22.01:288][753]AssetCheck: /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter Validating asset
+[2024.12.04-09.22.02:459][797]LogUObjectHash: Compacting FUObjectHashTables data took   1.79ms
+[2024.12.04-09.22.02:484][797]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2024.12.04-09.22.02:484][797]LogScript: Warning: Script Msg called by: ABP_RPGCharacter_C /Engine/Transient.World_15:PersistentLevel.BP_ThirdPersonCharacter_C_12.CharacterMesh0.ABP_RPGCharacter_C_1
+[2024.12.04-09.22.02:487][797]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2024.12.04-09.22.02:487][797]LogScript: Warning: Script Msg called by: ABP_RPGCharacter_C /Engine/Transient.World_17:PersistentLevel.BP_ThirdPersonCharacter_C_0.CharacterMesh0.ABP_RPGCharacter_C_1
+[2024.12.04-09.22.02:490][797]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2024.12.04-09.22.02:490][797]LogScript: Warning: Script Msg called by: ABP_RPGCharacter_C /Engine/Transient.World_28:PersistentLevel.BP_ThirdPersonCharacter_C_0.CharacterMesh0.ABP_RPGCharacter_C_1
+[2024.12.04-09.22.02:495][797]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2024.12.04-09.22.02:495][797]LogScript: Warning: Script Msg called by: ABP_RPGCharacter_C /Engine/Transient.World_15:PersistentLevel.BP_ThirdPersonCharacter_C_13.CharacterMesh0.ABP_RPGCharacter_C_0
+[2024.12.04-09.22.02:672][797]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2024.12.04-09.22.02:672][797]LogScript: Warning: Script Msg called by: ABP_RPGCharacter_C /Engine/Transient.World_17:PersistentLevel.BP_ThirdPersonCharacter_C_0.CharacterMesh0.ABP_RPGCharacter_C_1
+[2024.12.04-09.22.02:676][797]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2024.12.04-09.22.02:676][797]LogScript: Warning: Script Msg called by: ABP_RPGCharacter_C /Engine/Transient.World_28:PersistentLevel.BP_ThirdPersonCharacter_C_0.CharacterMesh0.ABP_RPGCharacter_C_1
+[2024.12.04-09.22.02:679][797]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2024.12.04-09.22.02:679][797]LogScript: Warning: Script Msg called by: ABP_RPGCharacter_C /Engine/Transient.World_15:PersistentLevel.BP_ThirdPersonCharacter_C_13.CharacterMesh0.ABP_RPGCharacter_C_0
+[2024.12.04-09.22.19:251][631]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2024.12.04-09.22.19:251][631]LogScript: Warning: Script Msg called by: ABP_RPGCharacter_C /Engine/Transient.World_17:PersistentLevel.BP_ThirdPersonCharacter_C_0.CharacterMesh0.ABP_RPGCharacter_C_1
+[2024.12.04-09.22.19:258][631]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2024.12.04-09.22.19:258][631]LogScript: Warning: Script Msg called by: ABP_RPGCharacter_C /Engine/Transient.World_28:PersistentLevel.BP_ThirdPersonCharacter_C_0.CharacterMesh0.ABP_RPGCharacter_C_1
+[2024.12.04-09.22.19:262][631]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2024.12.04-09.22.19:262][631]LogScript: Warning: Script Msg called by: ABP_RPGCharacter_C /Engine/Transient.World_15:PersistentLevel.BP_ThirdPersonCharacter_C_13.CharacterMesh0.ABP_RPGCharacter_C_0
+[2024.12.04-09.22.26:115][  8]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2024.12.04-09.22.26:116][  8]LogScript: Warning: Script Msg called by: ABP_RPGCharacter_C /Engine/Transient.World_17:PersistentLevel.BP_ThirdPersonCharacter_C_0.CharacterMesh0.ABP_RPGCharacter_C_1
+[2024.12.04-09.22.26:122][  8]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2024.12.04-09.22.26:122][  8]LogScript: Warning: Script Msg called by: ABP_RPGCharacter_C /Engine/Transient.World_28:PersistentLevel.BP_ThirdPersonCharacter_C_0.CharacterMesh0.ABP_RPGCharacter_C_1
+[2024.12.04-09.22.26:127][  8]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2024.12.04-09.22.26:127][  8]LogScript: Warning: Script Msg called by: ABP_RPGCharacter_C /Engine/Transient.World_15:PersistentLevel.BP_ThirdPersonCharacter_C_13.CharacterMesh0.ABP_RPGCharacter_C_0
+[2024.12.04-09.22.35:970][595]LogSlate: Window 'Color Picker' being destroyed
+[2024.12.04-09.22.49:976][997]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2024.12.04-09.22.49:976][997]LogScript: Warning: Script Msg called by: ABP_RPGCharacter_C /Engine/Transient.World_17:PersistentLevel.BP_ThirdPersonCharacter_C_0.CharacterMesh0.ABP_RPGCharacter_C_1
+[2024.12.04-09.22.49:982][997]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2024.12.04-09.22.49:982][997]LogScript: Warning: Script Msg called by: ABP_RPGCharacter_C /Engine/Transient.World_28:PersistentLevel.BP_ThirdPersonCharacter_C_0.CharacterMesh0.ABP_RPGCharacter_C_1
+[2024.12.04-09.22.49:986][997]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2024.12.04-09.22.49:986][997]LogScript: Warning: Script Msg called by: ABP_RPGCharacter_C /Engine/Transient.World_15:PersistentLevel.BP_ThirdPersonCharacter_C_13.CharacterMesh0.ABP_RPGCharacter_C_0
+[2024.12.04-09.22.59:770][557]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2024.12.04-09.22.59:770][557]LogScript: Warning: Script Msg called by: ABP_RPGCharacter_C /Engine/Transient.World_17:PersistentLevel.BP_ThirdPersonCharacter_C_0.CharacterMesh0.ABP_RPGCharacter_C_1
+[2024.12.04-09.22.59:781][557]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2024.12.04-09.22.59:781][557]LogScript: Warning: Script Msg called by: ABP_RPGCharacter_C /Engine/Transient.World_28:PersistentLevel.BP_ThirdPersonCharacter_C_0.CharacterMesh0.ABP_RPGCharacter_C_1
+[2024.12.04-09.22.59:786][557]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2024.12.04-09.22.59:786][557]LogScript: Warning: Script Msg called by: ABP_RPGCharacter_C /Engine/Transient.World_15:PersistentLevel.BP_ThirdPersonCharacter_C_13.CharacterMesh0.ABP_RPGCharacter_C_0
+[2024.12.04-09.23.01:809][676]LogSlate: Window 'Color Picker' being destroyed
+[2024.12.04-09.23.15:838][510]LogUObjectHash: Compacting FUObjectHashTables data took   1.75ms
+[2024.12.04-09.23.15:844][510]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.12.04-09.23.15:879][510]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter] ([2] browsable assets)...
+[2024.12.04-09.23.15:910][510]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter]
+[2024.12.04-09.23.15:910][510]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter]
+[2024.12.04-09.23.15:955][510]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter
+[2024.12.04-09.23.15:956][510]LogSavePackage: Moving '../../../../../../Games/Unreal Tutorial/Tutorial/RPG_Tutorial/Saved/BP_ThirdPersonCharacter07CF8B61493C21D08A69139B11BEFBFC.tmp' to '../../../../../../Games/Unreal Tutorial/Tutorial/RPG_Tutorial/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset'
+[2024.12.04-09.23.15:970][510]LogFileHelpers: InternalPromptForCheckoutAndSave took 125.564 ms (total: 6.22 sec)
+[2024.12.04-09.23.16:032][510]LogContentValidation: Display: Starting to validate 1 assets
+[2024.12.04-09.23.16:032][510]LogContentValidation: Enabled validators:
+[2024.12.04-09.23.16:032][510]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2024.12.04-09.23.16:032][510]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2024.12.04-09.23.16:032][510]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2024.12.04-09.23.16:032][510]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2024.12.04-09.23.16:032][510]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2024.12.04-09.23.16:032][510]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2024.12.04-09.23.16:032][510]AssetCheck: /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter Validating asset
+[2024.12.04-09.23.18:770][661]LogUObjectHash: Compacting FUObjectHashTables data took   2.13ms
+[2024.12.04-09.23.18:782][661]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2024.12.04-09.23.18:782][661]LogScript: Warning: Script Msg called by: ABP_RPGCharacter_C /Engine/Transient.World_17:PersistentLevel.BP_ThirdPersonCharacter_C_0.CharacterMesh0.ABP_RPGCharacter_C_1
+[2024.12.04-09.23.18:786][661]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2024.12.04-09.23.18:786][661]LogScript: Warning: Script Msg called by: ABP_RPGCharacter_C /Engine/Transient.World_28:PersistentLevel.BP_ThirdPersonCharacter_C_0.CharacterMesh0.ABP_RPGCharacter_C_1
+[2024.12.04-09.23.18:791][661]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2024.12.04-09.23.18:791][661]LogScript: Warning: Script Msg called by: ABP_RPGCharacter_C /Engine/Transient.World_15:PersistentLevel.BP_ThirdPersonCharacter_C_13.CharacterMesh0.ABP_RPGCharacter_C_1
+[2024.12.04-09.23.18:794][661]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2024.12.04-09.23.18:794][661]LogScript: Warning: Script Msg called by: ABP_RPGCharacter_C /Engine/Transient.World_15:PersistentLevel.BP_ThirdPersonCharacter_C_14.CharacterMesh0.ABP_RPGCharacter_C_0
+[2024.12.04-09.23.18:977][661]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2024.12.04-09.23.18:977][661]LogScript: Warning: Script Msg called by: ABP_RPGCharacter_C /Engine/Transient.World_17:PersistentLevel.BP_ThirdPersonCharacter_C_0.CharacterMesh0.ABP_RPGCharacter_C_1
+[2024.12.04-09.23.18:980][661]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2024.12.04-09.23.18:980][661]LogScript: Warning: Script Msg called by: ABP_RPGCharacter_C /Engine/Transient.World_28:PersistentLevel.BP_ThirdPersonCharacter_C_0.CharacterMesh0.ABP_RPGCharacter_C_1
+[2024.12.04-09.23.18:984][661]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2024.12.04-09.23.18:984][661]LogScript: Warning: Script Msg called by: ABP_RPGCharacter_C /Engine/Transient.World_15:PersistentLevel.BP_ThirdPersonCharacter_C_14.CharacterMesh0.ABP_RPGCharacter_C_0
+[2024.12.04-09.25.40:341][519]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2024.12.04-09.25.40:341][519]LogScript: Warning: Script Msg called by: ABP_RPGCharacter_C /Engine/Transient.World_17:PersistentLevel.BP_ThirdPersonCharacter_C_0.CharacterMesh0.ABP_RPGCharacter_C_1
+[2024.12.04-09.25.40:345][519]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2024.12.04-09.25.40:345][519]LogScript: Warning: Script Msg called by: ABP_RPGCharacter_C /Engine/Transient.World_28:PersistentLevel.BP_ThirdPersonCharacter_C_0.CharacterMesh0.ABP_RPGCharacter_C_1
+[2024.12.04-09.25.40:352][519]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2024.12.04-09.25.40:352][519]LogScript: Warning: Script Msg called by: ABP_RPGCharacter_C /Engine/Transient.World_15:PersistentLevel.BP_ThirdPersonCharacter_C_14.CharacterMesh0.ABP_RPGCharacter_C_0
+[2024.12.04-09.25.50:049][943]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2024.12.04-09.25.50:049][943]LogScript: Warning: Script Msg called by: ABP_RPGCharacter_C /Engine/Transient.World_17:PersistentLevel.BP_ThirdPersonCharacter_C_0.CharacterMesh0.ABP_RPGCharacter_C_1
+[2024.12.04-09.25.50:056][943]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2024.12.04-09.25.50:056][943]LogScript: Warning: Script Msg called by: ABP_RPGCharacter_C /Engine/Transient.World_28:PersistentLevel.BP_ThirdPersonCharacter_C_0.CharacterMesh0.ABP_RPGCharacter_C_1
+[2024.12.04-09.25.50:062][943]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2024.12.04-09.25.50:062][943]LogScript: Warning: Script Msg called by: ABP_RPGCharacter_C /Engine/Transient.World_15:PersistentLevel.BP_ThirdPersonCharacter_C_14.CharacterMesh0.ABP_RPGCharacter_C_0
+[2024.12.04-09.25.51:482][  1]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Edit Comment Color entirely.
+[2024.12.04-09.25.51:501][  1]LogSlate: Window 'Color Picker' being destroyed
+[2024.12.04-09.26.41:004][544]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 84160.031250
+[2024.12.04-09.26.41:089][549]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2024.12.04-09.26.41:090][549]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 84160.093750, Update Interval: 325.181427
+[2024.12.04-09.32.44:727][920]LogUObjectHash: Compacting FUObjectHashTables data took   1.91ms
+[2024.12.04-09.32.44:733][920]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.12.04-09.32.44:764][920]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter] ([2] browsable assets)...
+[2024.12.04-09.32.44:797][920]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter]
+[2024.12.04-09.32.44:797][920]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter]
+[2024.12.04-09.32.44:845][920]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter
+[2024.12.04-09.32.44:845][920]LogSavePackage: Moving '../../../../../../Games/Unreal Tutorial/Tutorial/RPG_Tutorial/Saved/BP_ThirdPersonCharacter204278164F8DDD490D85E9A6E5B98093.tmp' to '../../../../../../Games/Unreal Tutorial/Tutorial/RPG_Tutorial/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset'
+[2024.12.04-09.32.44:861][920]LogFileHelpers: InternalPromptForCheckoutAndSave took 127.482 ms (total: 6.35 sec)
+[2024.12.04-09.32.44:914][920]LogContentValidation: Display: Starting to validate 1 assets
+[2024.12.04-09.32.44:914][920]LogContentValidation: Enabled validators:
+[2024.12.04-09.32.44:914][920]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2024.12.04-09.32.44:914][920]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2024.12.04-09.32.44:914][920]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2024.12.04-09.32.44:914][920]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2024.12.04-09.32.44:914][920]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2024.12.04-09.32.44:914][920]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2024.12.04-09.32.44:914][920]AssetCheck: /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter Validating asset
+[2024.12.04-09.32.46:466][  2]LogUObjectHash: Compacting FUObjectHashTables data took   1.83ms
+[2024.12.04-09.32.46:478][  2]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2024.12.04-09.32.46:478][  2]LogScript: Warning: Script Msg called by: ABP_RPGCharacter_C /Engine/Transient.World_17:PersistentLevel.BP_ThirdPersonCharacter_C_0.CharacterMesh0.ABP_RPGCharacter_C_1
+[2024.12.04-09.32.46:481][  2]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2024.12.04-09.32.46:482][  2]LogScript: Warning: Script Msg called by: ABP_RPGCharacter_C /Engine/Transient.World_28:PersistentLevel.BP_ThirdPersonCharacter_C_0.CharacterMesh0.ABP_RPGCharacter_C_1
+[2024.12.04-09.32.46:485][  2]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2024.12.04-09.32.46:485][  2]LogScript: Warning: Script Msg called by: ABP_RPGCharacter_C /Engine/Transient.World_15:PersistentLevel.BP_ThirdPersonCharacter_C_14.CharacterMesh0.ABP_RPGCharacter_C_1
+[2024.12.04-09.32.46:488][  2]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2024.12.04-09.32.46:488][  2]LogScript: Warning: Script Msg called by: ABP_RPGCharacter_C /Engine/Transient.World_15:PersistentLevel.BP_ThirdPersonCharacter_C_15.CharacterMesh0.ABP_RPGCharacter_C_0
+[2024.12.04-09.32.46:670][  2]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2024.12.04-09.32.46:670][  2]LogScript: Warning: Script Msg called by: ABP_RPGCharacter_C /Engine/Transient.World_17:PersistentLevel.BP_ThirdPersonCharacter_C_0.CharacterMesh0.ABP_RPGCharacter_C_1
+[2024.12.04-09.32.46:674][  2]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2024.12.04-09.32.46:674][  2]LogScript: Warning: Script Msg called by: ABP_RPGCharacter_C /Engine/Transient.World_28:PersistentLevel.BP_ThirdPersonCharacter_C_0.CharacterMesh0.ABP_RPGCharacter_C_1
+[2024.12.04-09.32.46:678][  2]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2024.12.04-09.32.46:678][  2]LogScript: Warning: Script Msg called by: ABP_RPGCharacter_C /Engine/Transient.World_15:PersistentLevel.BP_ThirdPersonCharacter_C_15.CharacterMesh0.ABP_RPGCharacter_C_0
+[2024.12.04-09.33.00:466][147]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 84522.179688
+[2024.12.04-09.33.01:468][150]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2024.12.04-09.33.01:468][150]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 84522.859375, Update Interval: 342.073425
+[2024.12.04-09.33.29:936][652]LogEOSSDK: LogEOSAuth: Refreshing authentication session. AccessTokenExpired: No RefreshRequired: Yes VerifyRequired: No UserId: 8f4...e3f
+[2024.12.04-09.33.29:936][652]LogEOSSDK: LogEOSAuth: Refresh authentication session. AuthState: 1 AccessExpires: 99.99 RefreshExpires: 1.554e+07
+[2024.12.04-09.33.30:524][655]LogEOSSDK: LogEOSAuth: UpdateUserAuthToken: User ClientId: xyz...459 AccountId: 8f4...e3f Access[Expires: 2024.12.04-11.33.30 Remaining: 7200.50] Refresh[Expires: 2025-06-02T07:35:09.778Z Remaining: 15544899.78] State: Valid
+[2024.12.04-09.33.32:973][669]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.12.04-09.33.33:006][669]LogContentBundle: [ThirdPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.12.04-09.33.33:006][669]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' started...
+[2024.12.04-09.33.33:015][669]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' took 8.640 ms (total: 258.337 ms)
+[2024.12.04-09.33.33:020][669]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.12.04-09.33.33:031][669]LogPlayLevel: Display: Creating online subsystem for client :Context_42
+[2024.12.04-09.33.33:045][669]LogOnline: OSS: Created online subsystem instance for: :Context_42
+[2024.12.04-09.33.33:143][670]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2024.12.04-09.33.33:183][670]LogPlayLevel: PIE: StaticDuplicateObject took: (0.039574s)
+[2024.12.04-09.33.33:183][670]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.040203s)
+[2024.12.04-09.33.33:340][670]LogUObjectHash: Compacting FUObjectHashTables data took   2.74ms
+[2024.12.04-09.33.33:347][670]LogChaosDD: Creating Chaos Debug Draw Scene for world ThirdPersonMap
+[2024.12.04-09.33.33:381][670]LogRenderer: SceneCulling instance hierarchy is disabled as UseNanite(PCD3D_SM5) returned false, for scene: 'World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap'.
+[2024.12.04-09.33.33:411][670]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.12.04-09.33.33:411][670]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.12.04-09.33.33:411][670]LogWorldPartition: UWorldPartition::Initialize : World = /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.12.04-09.33.33:411][670]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.12.04-09.33.33:414][670]LogWorldPartition: Display: WorldPartition initialize took 3.269 ms (total: 167.397 ms)
+[2024.12.04-09.33.33:415][670]LogPlayLevel: PIE: World Init took: (0.069561s)
+[2024.12.04-09.33.33:420][670]LogAudio: Display: Creating Audio Device:                 Id: 17, Scope: Unique, Realtime: True
+[2024.12.04-09.33.33:420][670]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.12.04-09.33.33:420][670]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.12.04-09.33.33:420][670]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.12.04-09.33.33:420][670]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.12.04-09.33.33:420][670]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.12.04-09.33.33:420][670]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.12.04-09.33.33:420][670]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.12.04-09.33.33:420][670]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.12.04-09.33.33:421][670]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.12.04-09.33.33:421][670]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.12.04-09.33.33:421][670]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.12.04-09.33.33:424][670]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.12.04-09.33.33:451][670]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2024.12.04-09.33.33:452][670]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.12.04-09.33.33:452][670]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.12.04-09.33.33:452][670]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.12.04-09.33.33:454][670]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=17
+[2024.12.04-09.33.33:454][670]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=17
+[2024.12.04-09.33.33:456][670]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=17
+[2024.12.04-09.33.33:456][670]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=17
+[2024.12.04-09.33.33:458][670]LogInit: FAudioDevice initialized with ID 17.
+[2024.12.04-09.33.33:458][670]LogAudio: Display: Audio Device (ID: 17) registered with world 'ThirdPersonMap'.
+[2024.12.04-09.33.33:459][670]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 17
+[2024.12.04-09.33.33:487][670]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.12.04-09.33.33:499][670]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 0) at 2024.12.04-04.33.33
+[2024.12.04-09.33.33:501][670]LogWorld: Bringing up level for play took: 0.010130
+[2024.12.04-09.33.33:519][670]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2024.12.04-09.33.33:519][670]LogScript: Warning: Script Msg called by: ABP_RPGCharacter_C /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap:PersistentLevel.BP_ThirdPersonCharacter_C_0.CharacterMesh0.ABP_RPGCharacter_C_0
+[2024.12.04-09.33.33:548][670]PIE: Server logged in
+[2024.12.04-09.33.33:549][670]PIE: Play in editor total start time 0.549 seconds.
+[2024.12.04-09.33.59:810][811]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.12.04-09.33.59:810][811]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2024.12.04-09.33.59:815][811]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2024.12.04-09.33.59:820][811]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.12.04-09.33.59:820][811]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap
+[2024.12.04-09.33.59:973][811]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.12.04-09.33.59:994][811]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.12.04-09.34.00:063][811]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.12.04-09.34.00:067][811]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 17
+[2024.12.04-09.34.00:067][811]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=17
+[2024.12.04-09.34.00:097][811]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=17
+[2024.12.04-09.34.00:111][811]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.12.04-09.34.00:125][811]LogUObjectHash: Compacting FUObjectHashTables data took   4.04ms
+[2024.12.04-09.34.00:357][812]LogPlayLevel: Display: Destroying online subsystem :Context_42
+[2024.12.04-09.35.30:869][488]LogSelectionDetails: Warning: NavigateToFunctionSource:  Unable to find source file and line number for 'UKismetMathLibrary::FTrunc' [The specified module could not be found.]
+[2024.12.04-09.36.08:672][705]LogUObjectHash: Compacting FUObjectHashTables data took   1.57ms
+[2024.12.04-09.36.08:678][705]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.12.04-09.36.08:735][705]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter] ([2] browsable assets)...
+[2024.12.04-09.36.08:786][705]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter]
+[2024.12.04-09.36.08:786][705]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter]
+[2024.12.04-09.36.08:832][705]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter
+[2024.12.04-09.36.08:832][705]LogSavePackage: Moving '../../../../../../Games/Unreal Tutorial/Tutorial/RPG_Tutorial/Saved/BP_ThirdPersonCharacter2103E4DA46A3B17923BB2B9F21C67DCB.tmp' to '../../../../../../Games/Unreal Tutorial/Tutorial/RPG_Tutorial/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset'
+[2024.12.04-09.36.08:849][705]LogFileHelpers: InternalPromptForCheckoutAndSave took 170.518 ms (total: 6.52 sec)
+[2024.12.04-09.36.08:900][705]LogContentValidation: Display: Starting to validate 1 assets
+[2024.12.04-09.36.08:900][705]LogContentValidation: Enabled validators:
+[2024.12.04-09.36.08:900][705]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2024.12.04-09.36.08:901][705]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2024.12.04-09.36.08:901][705]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2024.12.04-09.36.08:901][705]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2024.12.04-09.36.08:901][705]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2024.12.04-09.36.08:901][705]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2024.12.04-09.36.08:901][705]AssetCheck: /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter Validating asset
+[2024.12.04-09.37.11:500][444]LogBlueprint: Error: [AssetLog] F:\Games\Unreal Tutorial\Tutorial\RPG_Tutorial\Content\ThirdPerson\Blueprints\BP_ThirdPersonCharacter.uasset: [Compiler] This blueprint (self) is not a BPC_PlayerStats_C, therefore ' Target ' must have a connection.
+[2024.12.04-09.37.11:608][444]LogUObjectHash: Compacting FUObjectHashTables data took   1.71ms
+[2024.12.04-09.37.11:632][444]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2024.12.04-09.37.11:632][444]LogScript: Warning: Script Msg called by: ABP_RPGCharacter_C /Engine/Transient.World_17:PersistentLevel.BP_ThirdPersonCharacter_C_0.CharacterMesh0.ABP_RPGCharacter_C_1
+[2024.12.04-09.37.11:634][444]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2024.12.04-09.37.11:634][444]LogScript: Warning: Script Msg called by: ABP_RPGCharacter_C /Engine/Transient.World_28:PersistentLevel.BP_ThirdPersonCharacter_C_0.CharacterMesh0.ABP_RPGCharacter_C_1
+[2024.12.04-09.37.11:637][444]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2024.12.04-09.37.11:637][444]LogScript: Warning: Script Msg called by: ABP_RPGCharacter_C /Engine/Transient.World_15:PersistentLevel.BP_ThirdPersonCharacter_C_15.CharacterMesh0.ABP_RPGCharacter_C_1
+[2024.12.04-09.37.11:640][444]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2024.12.04-09.37.11:640][444]LogScript: Warning: Script Msg called by: ABP_RPGCharacter_C /Engine/Transient.World_15:PersistentLevel.BP_ThirdPersonCharacter_C_16.CharacterMesh0.ABP_RPGCharacter_C_0
+[2024.12.04-09.37.11:813][444]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2024.12.04-09.37.11:813][444]LogScript: Warning: Script Msg called by: ABP_RPGCharacter_C /Engine/Transient.World_17:PersistentLevel.BP_ThirdPersonCharacter_C_0.CharacterMesh0.ABP_RPGCharacter_C_1
+[2024.12.04-09.37.11:816][444]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2024.12.04-09.37.11:816][444]LogScript: Warning: Script Msg called by: ABP_RPGCharacter_C /Engine/Transient.World_28:PersistentLevel.BP_ThirdPersonCharacter_C_0.CharacterMesh0.ABP_RPGCharacter_C_1
+[2024.12.04-09.37.11:818][444]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2024.12.04-09.37.11:818][444]LogScript: Warning: Script Msg called by: ABP_RPGCharacter_C /Engine/Transient.World_15:PersistentLevel.BP_ThirdPersonCharacter_C_16.CharacterMesh0.ABP_RPGCharacter_C_0
+[2024.12.04-09.37.45:471][411]LogUObjectHash: Compacting FUObjectHashTables data took   1.74ms
+[2024.12.04-09.37.45:478][411]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.12.04-09.37.45:552][411]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter] ([2] browsable assets)...
+[2024.12.04-09.37.45:583][411]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter]
+[2024.12.04-09.37.45:583][411]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter]
+[2024.12.04-09.37.45:627][411]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter
+[2024.12.04-09.37.45:627][411]LogSavePackage: Moving '../../../../../../Games/Unreal Tutorial/Tutorial/RPG_Tutorial/Saved/BP_ThirdPersonCharacter022FF97F4317DD1973B5008243492601.tmp' to '../../../../../../Games/Unreal Tutorial/Tutorial/RPG_Tutorial/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset'
+[2024.12.04-09.37.45:645][411]LogFileHelpers: InternalPromptForCheckoutAndSave took 166.025 ms (total: 6.68 sec)
+[2024.12.04-09.37.45:700][411]LogContentValidation: Display: Starting to validate 1 assets
+[2024.12.04-09.37.45:700][411]LogContentValidation: Enabled validators:
+[2024.12.04-09.37.45:700][411]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2024.12.04-09.37.45:700][411]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2024.12.04-09.37.45:700][411]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2024.12.04-09.37.45:700][411]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2024.12.04-09.37.45:700][411]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2024.12.04-09.37.45:700][411]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2024.12.04-09.37.45:700][411]AssetCheck: /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter Validating asset
+[2024.12.04-09.37.47:183][490]LogUObjectHash: Compacting FUObjectHashTables data took   1.83ms
+[2024.12.04-09.37.47:194][490]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2024.12.04-09.37.47:194][490]LogScript: Warning: Script Msg called by: ABP_RPGCharacter_C /Engine/Transient.World_17:PersistentLevel.BP_ThirdPersonCharacter_C_0.CharacterMesh0.ABP_RPGCharacter_C_1
+[2024.12.04-09.37.47:197][490]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2024.12.04-09.37.47:197][490]LogScript: Warning: Script Msg called by: ABP_RPGCharacter_C /Engine/Transient.World_28:PersistentLevel.BP_ThirdPersonCharacter_C_0.CharacterMesh0.ABP_RPGCharacter_C_1
+[2024.12.04-09.37.47:200][490]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2024.12.04-09.37.47:200][490]LogScript: Warning: Script Msg called by: ABP_RPGCharacter_C /Engine/Transient.World_15:PersistentLevel.BP_ThirdPersonCharacter_C_16.CharacterMesh0.ABP_RPGCharacter_C_1
+[2024.12.04-09.37.47:203][490]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2024.12.04-09.37.47:203][490]LogScript: Warning: Script Msg called by: ABP_RPGCharacter_C /Engine/Transient.World_15:PersistentLevel.BP_ThirdPersonCharacter_C_17.CharacterMesh0.ABP_RPGCharacter_C_0
+[2024.12.04-09.37.47:385][490]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2024.12.04-09.37.47:385][490]LogScript: Warning: Script Msg called by: ABP_RPGCharacter_C /Engine/Transient.World_17:PersistentLevel.BP_ThirdPersonCharacter_C_0.CharacterMesh0.ABP_RPGCharacter_C_1
+[2024.12.04-09.37.47:388][490]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2024.12.04-09.37.47:388][490]LogScript: Warning: Script Msg called by: ABP_RPGCharacter_C /Engine/Transient.World_28:PersistentLevel.BP_ThirdPersonCharacter_C_0.CharacterMesh0.ABP_RPGCharacter_C_1
+[2024.12.04-09.37.47:392][490]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2024.12.04-09.37.47:392][490]LogScript: Warning: Script Msg called by: ABP_RPGCharacter_C /Engine/Transient.World_15:PersistentLevel.BP_ThirdPersonCharacter_C_17.CharacterMesh0.ABP_RPGCharacter_C_0
+[2024.12.04-09.39.20:398][697]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 84888.820312
+[2024.12.04-09.39.21:398][700]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2024.12.04-09.39.21:398][700]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 84889.492188, Update Interval: 342.157654
+[2024.12.04-09.45.43:644][921]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 85274.742188
+[2024.12.04-09.45.44:644][924]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2024.12.04-09.45.44:644][924]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 85275.414062, Update Interval: 349.048126
+[2024.12.04-09.52.13:449][ 90]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 85667.296875
+[2024.12.04-09.52.14:449][ 93]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2024.12.04-09.52.14:449][ 93]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 85667.968750, Update Interval: 344.880524
